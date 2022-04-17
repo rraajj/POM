@@ -44,10 +44,7 @@ public class TestCase1 {
         
 	}
 
-	@AfterMethod
-	public void tearDown(WebDriver driver) 
-	{
-       driver.quit();
+	 
 		 
 	}
 
