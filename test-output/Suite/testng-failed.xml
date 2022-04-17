@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="POM(failed)">
+    <classes>
+      <class name="testPlan.TestCase1">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testPlan.TestCase1 -->
+    </classes>
+  </test> <!-- POM(failed) -->
+</suite> <!-- Failed suite [Suite] -->
